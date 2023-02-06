@@ -767,9 +767,13 @@ static const u8 sText_StatWasHeightened[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s
 static const u8 sText_ElectricTerrainActivatedAbility[] = _("The Electric Terrain activated\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ABILITY}!");
 static const u8 sText_AbilityWeakenedSurroundingMonsStat[] = _("{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY}\nweakened the {B_BUFF1} of\lall surrounding Pokémon!\p");
 static const u8 sText_AttackerGainedStrengthFromTheFallen[] = _("{B_ATK_NAME_WITH_PREFIX} gained strength\nfrom the fallen!");
+static const u8 sText_PkmnDroppedItem[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} dropped\nits {B_LAST_ITEM}!{WAIT_SE}\p");
+static const u8 sText_BagIsFull[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} dropped\n{B_LAST_ITEM}!{WAIT_SE}\pBut your bag is full!\p");
 
 const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
 {
+    [STRINGID_BAGISFULL - BATTLESTRINGS_TABLE_START] = sText_BagIsFull,
+    [STRINGID_PKMNDROPPEDITEM - BATTLESTRINGS_TABLE_START] = sText_PkmnDroppedItem,
     [STRINGID_ATTACKERGAINEDSTRENGTHFROMTHEFALLEN - BATTLESTRINGS_TABLE_START] = sText_AttackerGainedStrengthFromTheFallen,
     [STRINGID_ABILITYWEAKENEDFSURROUNDINGMONSSTAT - BATTLESTRINGS_TABLE_START] = sText_AbilityWeakenedSurroundingMonsStat,
     [STRINGID_ELECTRICTERRAINACTIVATEDABILITY - BATTLESTRINGS_TABLE_START] = sText_ElectricTerrainActivatedAbility,
@@ -1858,6 +1862,12 @@ const u16 gRoomsStringIds[] =
 const u16 gStatusConditionsStringIds[] =
 {
     STRINGID_PKMNWASPOISONED, STRINGID_PKMNBADLYPOISONED, STRINGID_PKMNWASBURNED, STRINGID_PKMNWASPARALYZED, STRINGID_PKMNFELLASLEEP
+};
+
+const u16 gItemDroppedStringIds[] =
+{
+    [B_MSG_ITEM_DROPPED] = STRINGID_PKMNDROPPEDITEM,
+    [B_MSG_BAG_IS_FULL] = STRINGID_BAGISFULL,
 };
 
 const u8 gText_PkmnIsEvolving[] = _("What?\n{STR_VAR_1} is evolving!");

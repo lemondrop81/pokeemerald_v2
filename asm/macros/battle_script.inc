@@ -2190,6 +2190,10 @@
 	various 0, VARIOUS_SKY_DROP_YAWN
 	.endm
 
+	.macro givedroppeditems
+	various BS_FAINTED, VARIOUS_GIVE_DROPPED_ITEMS
+	.endm
+
 	@ Used by effects that may proc Symbiosis but do not call removeitem.
 	.macro trysymbiosis
 	various BS_ATTACKER, VARIOUS_TRY_SYMBIOSIS
