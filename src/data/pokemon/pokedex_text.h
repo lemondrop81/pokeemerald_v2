@@ -5398,4 +5398,380 @@ const u8 gEnamorusPokedexText[] = _(
     "winter. According to legend, this\n"
     "Pokémon's love gives rise to the\n"
     "budding of fresh life across the land.");
+
+const u8 gKipvinePokedexText[] = _(
+    "This creature can whip its vine-like\n"
+    "tail at 50mph to quickly stun its prey.\n"
+    "It thoroughly enjoys basking in the sun.");
+
+const u8 gPlaguarPokedexText[] = _(
+    "A cat composed of luscious leaf\n" 
+    "petals. Each Fall the petals fall\n"
+    "out and regrow in the Spring.");
+
+const u8 gPhotoguarPokedexText[] = _(
+    "It has such a high flow rate of\n"
+    "Potassium and Sodium ions that it\n"
+    "can conduct electricity.");
+
+const u8 gRaiadPokedexText[] = _(
+    "Ancient Irish folklore indicates\n"
+    "these creatures are the spirits\n"
+    "of beautiful maidens.");
+
+const u8 gRusalkaPokedexText[] = _(
+    "Sailors, entranced by the sheer\n"
+    "beauty of Rusalka's singing, dive\n"
+    "into the open ocean and drown.");
+
+const u8 gFallsheerPokedexText[] = _(
+    "This mermaid spirit can emit a\n"
+    "shriek of up to 180 decibels,\n"
+    "signaling the impending doom\n"
+    "of its enemies.");
+    
+const u8 gScuiretPokedexText[] = _(
+    "A typical old squirrel with sharp\n"
+    "claws and chubby cheeks. They are\n"
+    "known to fight over each other's nuts.");
+
+const u8 gPteroretPokedexText[] = _(
+    "An armor-plated warrior squirrel\n"
+    "with a big bushy tail. However, it\n"
+    "is still a squirrel so it is not\n"
+    "very dangerous.");
+
+const u8 gBirrobirdPokedexText[] = _(
+    "A little chicklet who takes months\n"
+    "after hatching to learn to fly, even\n"
+    "though they are born on mountain peaks");
+
+const u8 gEageleagPokedexText[] = _(
+    "A majestic eagle capable of flying\n"
+    "into the upper stratosphere. It's speed\n"
+    "is unmatched among the Aves species class.");
+
+const u8 gGriffogrifPokedexText[] = _(
+    "It is a hybrid of an eagle and a\n"
+    "horse. It is just as likely to peck\n"
+    "you to shreds as it is to stomp you flat.");
+    
+const u8 gMafichuPokedexText[] = _(
+    "An electric rat who is rumored to be the\n"
+    "icon of the Andromeda City Mafia. It\n"
+    "emits black electricity.");
+
+const u8 gDemichuPokedexText[] = _(
+    "It is used by the Andromeda City Police\n"
+    "Department to combat the city mafia.\n"
+    "Its agility is unmatched among Pokémon.");
+
+const u8 gCutbitPokedexText[] = _(
+    "A rabbit with a sharp scythe for a tail\n"
+    "which it uses as a crude machete.\n"
+    "Large-acreage homeowners often own hordes\n"
+    "of Cutbit to trim their lawn and/or hedges.");
+
+const u8 gFlabbitPokedexText[] = _(
+    "A rabbit whose stomach is home to\n"
+    "strange parasites which emit\n"
+    "intense rays of light.");
+
+const u8 gBlitzrdrixPokedexText[] = _(
+    "Strange parasites have caused Flabbit\n"
+    "to mutate into this violent creature.");
+
+const u8 gNeinsoulPokedexText[] = _(
+    "It is the spirit of the first-ever\n"
+    "Ninetales, to whom the foxes pray\n"
+    "to derive their mystic powers.");
+
+const u8 gSpruvynePokedexText[] = _(
+    "These seed Pokémon have evolved\n"
+    "to be able to travel by wind for\n"
+    "thousands of miles before settling.");
+
+const u8 gQuervynePokedexText[] = _(
+    "A sturdy, sentient tree. It often\n"
+    "catches prey by smashing its trunk\n"
+    "sized arm down to squash them.");
+
+const u8 gSampervynePokedexText[] = _(
+    "A fierce chimera of oak and hellkite.\n"
+    "Their sturdiness and aggression make\n"
+    "them very hard to defeat.");
+
+const u8 gRangifePokedexText[] = _(
+    "A steel plated reindeer. They love\n"
+    "to play with their owners, often\n"
+    "resulting in crushed limbs.");
+
+const u8 gTaranalloyPokedexText[] = _(
+    "Its skin is plated with rare metals\n"
+    "and is highly sought after because it\n"
+    "is so dangerous to obtain, yet\n"
+    "so beautiful.");
+
+const u8 gAlcesteelPokedexText[] = _(
+    "A cryogenic moose with a fierce temper.\n"
+    "It has been known to freeze enemies and\n"
+    "then shatter them for sport.");
+
+const u8 gArakidPokedexText[] = _(
+    "A telekinetic spider that diverged from\n"
+    "Spinarak's geneology. It manipulates\n"
+    "gravitational forces between objects to\n"
+    "cause prey to “fall” into its web.");
+
+const u8 gRakidonePokedexText[] = _(
+    "A genetically mutated tarantula with\n"
+    "telekinetic powers. It uses these powers\n"
+    "to ensnare its prey without webs.");
+
+const u8 gTotemnaPokedexText[] = _(
+    "In ancient times, Totemna was considered\n"
+    "an ornament, given as peace offerings\n"
+    "among human tribes.");
+
+const u8 gPskulptPokedexText[] = _(
+    "Ancient civilization priests used Totemna\n"
+    "for religious practices. They were viewed\n"
+    "as objects of power.");
+
+const u8 gEspatchPokedexText[] = _(
+    "A large totem pole that was used by Kings\n"
+    "and Queens to declare war. They are very\n"
+    "rare nowadays.");
+
+const u8 gFizzixPokedexText[] = _(
+    "It first formed from a lab accident\n"
+    "involving plasma jets. Its dynamic form\n"
+    "is mistaken for a mirage.");
+
+const u8 gGravitomixPokedexText[] = _(
+    "Solar radiation prevents Gravitomix's\n"
+    "molecules from equilibrating, allowing\n"
+    "it to store large amounts of energy.");
+
+const u8 gAmunatuPokedexText[] = _(
+    "The psychic abilities of Xatu mutated its\n"
+    "DNA, reverting back to its\n"
+    "predatory predecessors.");
+
+const u8 gGroppPokedexText[] = _(
+    "While not the brighetest Pokémon, Gropp is\n"
+    "a very hefty opponent and very difficult\n"
+    "to deal with.");
+
+const u8 gCyclobberPokedexText[] = _(
+    "It is impossibly stupid but also very\n"
+    "strong. Smashing the rock on its belly\n"
+    "instantly causes it to faint.");
+
+const u8 gTotsiclePokedexText[] = _(
+    "The eggs of this dragon are laid inside of\n"
+    "glaciers. It must build tunnels through the\n"
+    "ice to survive after birth.");
+
+const u8 gFrostidonPokedexText[] = _(
+    "Its backshell is formed from Totsicle's tough\n"
+    "eggshell. The icicles on their heads are\n"
+    "used to impale prey.");
+
+const u8 gGlacriekPokedexText[] = _(
+    "An icy demon snake that wraps itself around\n"
+    "a frozen prey to shatter it");
+
+const u8 gAmoergPokedexText[] = _(
+    "One of the few Pokémon to survive the ice age,\n"
+    "it has evolved to contain deadly toxins that\n"
+    "allow it to kill its prey.");
+
+const u8 gSarphonPokedexText[] = _(
+    "The true form of this pokemon is unknown.\n"
+    "Beneath the bandages, it molds its rocky body\n"
+    "into an effigy of its adversary.");
+
+const u8 gAerophagusPokedexText[] = _(
+    "The hard shell beneath the bandages contains a\n"
+    "turbulent air sac, giving it expert control over\n"
+    "air flow. A controlled release produces high\n"
+    "winds or earsplitting groans.");
+
+const u8 gRoxxikPokedexText[] = _(
+    "The fossilized remains of a snake. The venom has\n"
+    "survived thousands of years which has made\n"
+    "it even more toxic.");
+
+const u8 gGraveliskPokedexText[] = _(
+    "An ancient, fossilized basilisk. One drop of its\n"
+    "venom can kill an elephant. Its frills are made\n"
+    "of diamond and taper to a razor-thin edge.");
+
+const u8 gSkarmorosPokedexText[] = _(
+    "This ancient dragon has scales of cold, blue\n"
+    " & gray iron. Its armor is cast from re-forged\n"
+    "weapons from fallen soldiers");
+
+const u8 gPhenyxyPokedexText[] = _(
+    "A bird of great beauty, it combusts spontaneously\n"
+    "only to be reborn as a stronger version of itself.");
+
+const u8 gResurakethPokedexText[] = _(
+    "The epitome of beauty, it is born from the ashes of\n"
+    "Phenyxy. It is immensely powerful, yet delicate\n"
+    "as a feather.");
+
+const u8 gTorkylliumPokedexText[] = _(
+    "Complex chemical reactions between a Torkoal's rocky\n"
+    "shell and the air caused it to turn into beryllium.");
+
+const u8 gMinotrantPokedexText[] = _(
+    "One of the most deadly creatures that roams the\n"
+    "Earth. It often carries an axe forged from the\n"
+    "steel of the Gods.");
+
+const u8 gZigglygrufPokedexText[] = _(
+    "Zigglygruf is often working out at the gym, using\n"
+    "Jigglypuff as a glorified punching bag.");
+
+const u8 gGommPokedexText[] = _(
+    "Gomm derives nourishment from usually harmless\n"
+    "pranks. It will perish if it goes one day\n"
+    "without mischief.");
+
+const u8 gMountgromPokedexText[] = _(
+    "Mountegrom is extremely untrustworthy, constantly\n"
+    "planning and performing long-term schemes and cons.");
+
+const u8 gOvaraptPokedexText[] = _(
+    "Its shell is terrifically heavy and hard. Few\n"
+    "Ovarapt attain the strength to break out of it.\n"
+    "It hunts in tandem with other Ovarapt, using\n"
+    "cunning and traps.");
+
+const u8 gVelokotaPokedexText[] = _(
+    "Its small stature frequently causes prey to\n"
+    "underestimate it. Velokota is quite smart. Packs\n"
+    "of them are terrifically dangerous due to\n"
+    "their advanced tactics.");
+
+const u8 gUtabazaiPokedexText[] = _(
+    "Its significant bulk slows it down, but allows it\n"
+    "to predate upon pokemon several times its\n"
+    "size. A thin layer of corundrum makes its\n"
+    "hide extra durable.");
+
+const u8 gKroaPokedexText[] = _(
+    "A tiny sea horse that drifts with ocean\n"
+    "currents in search of a mate. It swims by\n"
+    "circulating water through its hooped\n"
+    "fin-like structures.");
+
+const u8 gKroaeaPokedexText[] = _(
+    "A large, mutant sea horse. While many sea horses\n"
+    "are friendly, Kroaea is dangerous and often attack\n"
+    "ships at sea, burning the remnants afterwards.");
+
+const u8 gKroaeakoaPokedexText[] = _(
+    "This massive sea monster crushes ships like\n"
+    "toothpicks for sport. Its tentacles can strike\n"
+    "so fast that they boil the surrounding water\n"
+    "and flay the enemy alive.");
+
+const u8 gArchigloomPokedexText[] = _(
+    "It analyzes the souls of its victims to find\n"
+    "strengths and weaknesses. Archigloom does not\n"
+    "hesitate to pursue just ends through\n"
+    "un-just means.");
+
+const u8 gNemeltPokedexText[] = _(
+    "Their eggs hatch within volcanoes, requiring\n"
+    "that they learn to swim in lava within\n"
+    "just a few weeks.");
+
+const u8 gVaraflarePokedexText[] = _(
+    "Found in extreme heat environments, it radiates\n"
+    "a massive amount of thermal energy\n"
+    "to stay at a stable temperature.");
+
+const u8 gKomodorPokedexText[] = _(
+    "With the ability to spew a fiery-acid\n"
+    "compound, this lizard is considered the\n"
+    "most dangerous Pokémon to train.");
+
+const u8 gSilhouPokedexText[] = _(
+    "A gangly, sinuous glove. In place of a\n"
+    "head, this creature has a hand with a central\n"
+    "eye. Each finger has its own brain, and it\n"
+    "can survive as long as two fingers are intact.");
+
+const u8 gSilgauntPokedexText[] = _(
+    "A serpentine creature with tough carapace\n"
+    "jutting out from the knuckles that embody\n"
+    "its face. Its fingertips are adept at mangling\n"
+    "those it drags into the shadows.");
+
+const u8 gVaileyePokedexText[] = _(
+    "This pokemon's roots carry hundreds of\n"
+    "amps of electric current. Its panels and\n"
+    "lens focus the current into powerful\n"
+    "magnetic fields.");
+
+const u8 gBloodnauntPokedexText[] = _(
+    "In contrast to Vaileye, Bloodnaut is\n"
+    "constantly overloaded by its more powerful\n"
+    "magnetic fields. As such, it is\n"
+    "irritable, brooding, and aggressive.");
+
+const u8 gAnphagePokedexText[] = _(
+    "It prefers not to hunt, subsisting\n"
+    "primarily on carrion. It can sense\n"
+    "fresh remains from miles away.");
+
+const u8 gTusgoyfPokedexText[] = _(
+    "Its sixth sense is a death radar.\n"
+    "Tusgoyf instinctively knows where\n"
+    "to find already-injured prey.");
+
+const u8 gLlurscayfPokedexText[] = _(
+    "Its unusual body shape allows it\n"
+    "to reach prey in small corners and\n"
+    "crevices. It moves with perfect\n"
+    "silence when hunting.");
+
+const u8 gCranisectPokedexText[] = _(
+    "A tiny bug that has risen from the\n"
+    "grave. It is so disgustingly hideous\n"
+    "it wears a skull as a mask.");
+
+const u8 gSkultulantPokedexText[] = _(
+    "An ooze-like substance that ingests\n"
+    "the skulls of other pokemon in order\n"
+    "to form body parts for mobility\n"
+    "and battle.");
+
+const u8 gChrysalPokedexText[] = _(
+    "A dark cacoon with an evil aura. Old\n"
+    "wives tales imply that the cacoon constains\n"
+    "a demon pokemon, as these creatures\n"
+    "would often feast upon infants during the night.");
+
+const u8 gVellavalePokedexText[] = _(
+    "A scorpion born of pure evil. Vellavale\n"
+    "are nocturnal beings, thriving in areas\n"
+    "of shadow and attacking unwary\n"
+    "travellers with superb stealth.");
+
+const u8 gVellidaxosPokedexText[] = _(
+    "A demonic scorpion that is shrouded in\n"
+    "darkness. The toxin in its stinger is\n"
+    "not only lethal, but it also corrupts ones\n"
+    "soul so that they spend eternity in damnation.");
+
+const u8 gGhoulslashPokedexText[] = _(
+    "A ghoul with a propensity for slashing.\n"
+    "Its blurred shape allows it to move at\n"
+    "unpredictable speeds, enabling it to\n"
+    "catch prey off-guard.");
 #endif

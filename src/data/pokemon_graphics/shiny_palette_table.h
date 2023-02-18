@@ -969,6 +969,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(KOMODOR, gMonShinyPalette_Komodor),
     SPECIES_SHINY_PAL(SILHOU, gMonShinyPalette_Silhou),
     SPECIES_SHINY_PAL(SILGAUNT, gMonShinyPalette_Silgaunt),
+    SPECIES_SHINY_PAL(VAILEYE, gMonShinyPalette_Vaileye),
     SPECIES_SHINY_PAL(BLOODNAUNT, gMonShinyPalette_Bloodnaut),
     SPECIES_SHINY_PAL(ANPHAGE, gMonShinyPalette_Anphage),
     SPECIES_SHINY_PAL(TUSGOYF, gMonShinyPalette_Tusgoyf),
@@ -1190,7 +1191,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
 
     SPECIES_SHINY_PAL(ARCEUS_FIGHTING, gMonShinyPalette_ArceusFighting),
     SPECIES_SHINY_PAL(ARCEUS_FLYING, gMonShinyPalette_ArceusFlying),
-    SPECIES_SHINY_PAL(ARCEUS_SHINY_POISON, gMonShinyPalette_ArceusPoison),
+    SPECIES_SHINY_PAL(ARCEUS_POISON, gMonShinyPalette_ArceusPoison),
     SPECIES_SHINY_PAL(ARCEUS_GROUND, gMonShinyPalette_ArceusGround),
     SPECIES_SHINY_PAL(ARCEUS_ROCK, gMonShinyPalette_ArceusRock),
     SPECIES_SHINY_PAL(ARCEUS_BUG, gMonShinyPalette_ArceusBug),
@@ -1200,7 +1201,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(ARCEUS_WATER, gMonShinyPalette_ArceusWater),
     SPECIES_SHINY_PAL(ARCEUS_GRASS, gMonShinyPalette_ArceusGrass),
     SPECIES_SHINY_PAL(ARCEUS_ELECTRIC, gMonShinyPalette_ArceusElectric),
-    SPECIES_SHINY_PAL(ARCEUS_SHINY_PSYCHIC, gMonShinyPalette_ArceusPsychic),
+    SPECIES_SHINY_PAL(ARCEUS_PSYCHIC, gMonShinyPalette_ArceusPsychic),
     SPECIES_SHINY_PAL(ARCEUS_ICE, gMonShinyPalette_ArceusIce),
     SPECIES_SHINY_PAL(ARCEUS_DRAGON, gMonShinyPalette_ArceusDragon),
     SPECIES_SHINY_PAL(ARCEUS_DARK, gMonShinyPalette_ArceusDark),
@@ -1402,7 +1403,6 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     
     SPECIES_SHINY_PAL(ENAMORUS_THERIAN, gMonShinyPalette_CircledQuestionMark), //gMonShinyPalette_EnamorusTherian),
 #endif
-    SPECIES_SHINY_PAL(EGG, gMonShinyPalette_Egg),
 };
 
 const struct CompressedSpritePalette gMonShinyPaletteTableFemale[] =

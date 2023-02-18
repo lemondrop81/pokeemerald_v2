@@ -4572,6 +4572,12 @@ static const union AnimCmd sAnim_Birrobird_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Eageleag_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Griffogrif_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -4873,6 +4879,12 @@ static const union AnimCmd sAnim_Silhou_1[] =
 };
 
 static const union AnimCmd sAnim_Silgaunt_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Vaileye_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -11385,6 +11397,7 @@ SINGLE_ANIMATION(Varaflare);
 SINGLE_ANIMATION(Komodor);
 SINGLE_ANIMATION(Silhou);
 SINGLE_ANIMATION(Silgaunt);
+SINGLE_ANIMATION(Vaileye);
 SINGLE_ANIMATION(Bloodnaut);
 SINGLE_ANIMATION(Anphage);
 SINGLE_ANIMATION(Tusgoyf);
@@ -12579,6 +12592,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_KOMODOR]     = sAnims_Komodor,
     [SPECIES_SILHOU]      = sAnims_Silhou,
     [SPECIES_SILGAUNT]    = sAnims_Silgaunt,
+    [SPECIES_VAILEYE]     = sAnims_Vaileye,
     [SPECIES_BLOODNAUNT]  = sAnims_Bloodnaut,
     [SPECIES_ANPHAGE]     = sAnims_Anphage,
     [SPECIES_TUSGOYF]     = sAnims_Tusgoyf,

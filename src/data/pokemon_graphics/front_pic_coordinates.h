@@ -973,6 +973,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_KOMODOR]                      = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  2 },
     [SPECIES_SILHOU]                       = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  2 },
     [SPECIES_SILGAUNT]                     = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  2 },
+    [SPECIES_VAILEYE]                      = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  2 },
     [SPECIES_BLOODNAUNT]                   = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  2 },
     [SPECIES_ANPHAGE]                      = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  2 },
     [SPECIES_TUSGOYF]                      = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  2 },

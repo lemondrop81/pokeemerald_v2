@@ -968,6 +968,7 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_KOMODOR]       = gMonFootprint_Komodor,
     [SPECIES_SILHOU]        = gMonFootprint_Silhou,
     [SPECIES_SILGAUNT]      = gMonFootprint_Silgaunt,
+    [SPECIES_VAILEYE]       = gMonFootprint_Vaileye,
     [SPECIES_BLOODNAUNT]    = gMonFootprint_Bloodnaut,
     [SPECIES_ANPHAGE]       = gMonFootprint_Anphage,
     [SPECIES_TUSGOYF]       = gMonFootprint_Tusgoyf,

@@ -928,7 +928,6 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
     SPECIES_SPRITE(SPRUVYNE, gMonBackPic_Spruvyne),
     SPECIES_SPRITE(QUERVYNE, gMonBackPic_Quervyne),
     SPECIES_SPRITE(SAMPERVYNE, gMonBackPic_Sampervyne),
-    SPECIES_SPRITE(SAMPERVYNE, gMonBackPic_Sampervyne),
     SPECIES_SPRITE(RANGIFE, gMonBackPic_Rangife),
     SPECIES_SPRITE(TARANALLOY, gMonBackPic_Taranalloy),
     SPECIES_SPRITE(ALCESTEEL, gMonBackPic_Alcesteel),
@@ -970,6 +969,7 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
     SPECIES_SPRITE(KOMODOR, gMonBackPic_Komodor),
     SPECIES_SPRITE(SILHOU, gMonBackPic_Silhou),
     SPECIES_SPRITE(SILGAUNT, gMonBackPic_Silgaunt),
+    SPECIES_SPRITE(VAILEYE, gMonBackPic_Vaileye),
     SPECIES_SPRITE(BLOODNAUNT, gMonBackPic_Bloodnaut),
     SPECIES_SPRITE(ANPHAGE, gMonBackPic_Anphage),
     SPECIES_SPRITE(TUSGOYF, gMonBackPic_Tusgoyf),
@@ -1405,7 +1405,6 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
 
     SPECIES_SPRITE(ENAMORUS_THERIAN, gMonBackPic_CircledQuestionMark), //gMonBackPic_EnamorusTherian),
 #endif
-    SPECIES_SPRITE(EGG, gMonBackPic_Egg),
 };
 
 const struct CompressedSpriteSheet gMonBackPicTableFemale[] =

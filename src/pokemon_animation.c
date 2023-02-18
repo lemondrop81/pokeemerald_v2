@@ -661,6 +661,7 @@ static const u8 sSpeciesToBackAnimSet[NUM_SPECIES] =
     [SPECIES_KOMODOR - 1]                   = BACK_ANIM_SHAKE_GLOW_RED,
     [SPECIES_SILHOU - 1]                    = BACK_ANIM_SHAKE_GLOW_RED,
     [SPECIES_SILGAUNT - 1]                  = BACK_ANIM_SHAKE_GLOW_RED,
+    [SPECIES_VAILEYE - 1]                = BACK_ANIM_SHAKE_GLOW_RED,
     [SPECIES_BLOODNAUNT - 1]                = BACK_ANIM_SHAKE_GLOW_RED,
     [SPECIES_ANPHAGE - 1]                   = BACK_ANIM_SHAKE_GLOW_RED,
     [SPECIES_TUSGOYF - 1]                   = BACK_ANIM_SHRINK_GROW_VIBRATE,

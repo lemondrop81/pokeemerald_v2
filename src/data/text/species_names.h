@@ -969,6 +969,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_KOMODOR] = _("Komodor"),
     [SPECIES_SILHOU] = _("Silhou"),
     [SPECIES_SILGAUNT] = _("Silgaunt"),
+    [SPECIES_VAILEYE] = _("Vaileye"),
     [SPECIES_BLOODNAUNT] = _("Bloodnaunt"),
     [SPECIES_ANPHAGE] = _("Anphage"),
     [SPECIES_TUSGOYF] = _("Tusgoyf"),
