@@ -27691,7 +27691,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_DRAGON,
-        .abilities = {ABILITY_ICE_BODY, ABILITY_THICK_FAT, ABILITY_CHLOROPHYLL},
+        .abilities = {ABILITY_ICE_BODY, ABILITY_THICK_FAT, ABILITY_NONE},
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
