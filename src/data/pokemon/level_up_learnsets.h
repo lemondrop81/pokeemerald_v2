@@ -20381,7 +20381,7 @@ static const struct LevelUpMove sRoxxikLevelUpLearnset[] = {
 
 static const struct LevelUpMove sGraveliskLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_RAZOR_SHELL), // Learn on evolution
-    LEVEL_UP_MOVE( 1, MOVE_WRAP)
+    LEVEL_UP_MOVE( 1, MOVE_WRAP),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 3, MOVE_POISON_STING),
     LEVEL_UP_MOVE( 6, MOVE_SPIKES),
@@ -20817,7 +20817,7 @@ static const struct LevelUpMove sVaileyeLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TEARFUL_LOOK),
     LEVEL_UP_MOVE( 7, MOVE_SWIFT),
     LEVEL_UP_MOVE(10, MOVE_GLARE),
-    LEVEL_UP_MOVE(16, MOVE_PSYBEAM,
+    LEVEL_UP_MOVE(16, MOVE_PSYBEAM),
     LEVEL_UP_MOVE(19, MOVE_CHARGE_BEAM),
     LEVEL_UP_MOVE(25, MOVE_SIGNAL_BEAM),
     LEVEL_UP_MOVE(28, MOVE_SELF_DESTRUCT),
@@ -20839,7 +20839,7 @@ static const struct LevelUpMove sBloodnauntLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TEARFUL_LOOK),
     LEVEL_UP_MOVE( 7, MOVE_SWIFT),
     LEVEL_UP_MOVE(10, MOVE_GLARE),
-    LEVEL_UP_MOVE(16, MOVE_PSYBEAM,
+    LEVEL_UP_MOVE(16, MOVE_PSYBEAM),
     LEVEL_UP_MOVE(19, MOVE_CHARGE_BEAM),
     LEVEL_UP_MOVE(25, MOVE_SIGNAL_BEAM),
     LEVEL_UP_MOVE(28, MOVE_SELF_DESTRUCT),

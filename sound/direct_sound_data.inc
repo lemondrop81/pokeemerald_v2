@@ -3986,6 +3986,295 @@ Cry_Spectrier::
 	.align 2
 Cry_Calyrex::
 	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Kipvine::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Plaguar::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Photoguar::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Raiad::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Rusalka::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Fallsheer::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Scuiret::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Pteroret::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Birrobird::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Eageleag::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Griffogrif::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Mafichu::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Demichu::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Cutbit::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Flabbit::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Blitzrdrix::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Neinsoul::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Spruvyne::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Queryne::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Sampervyne::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Rangife::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Taranalloy::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Alcesteel::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Arakid::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Rakidone::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Totemna::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Pskulpt::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Espatch::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Fizzix::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Gravitomix::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Amunatu::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Gropp::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Cyclobber::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Totsicle::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Frostidon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Glacriek::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Ameoerg::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Sarphon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Aerophagus::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Roxxik::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Gravelisk::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Skarmoros::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Phenyxy::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Resuraketh::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Torkyllium::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Minotrant::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Zigglygruf::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Gomm::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Mountegrom::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Ovarapt::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Velokota::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Utabazai::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Kroa::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Kroaea::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Kroaeakaoa::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Archigloom::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Nemelt::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Varaflare::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Komodor::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Silhou::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Silgaunt::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Vaileye::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Bloodnaunt::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Anphage::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Tusgoyf::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Llurscayf::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Cranisect::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Skultulant::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Chrysal::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Vellavale::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Vellidaxos::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Ghoulslash::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
 /*
 	.align 2
 Cry_Wyrdeer::
