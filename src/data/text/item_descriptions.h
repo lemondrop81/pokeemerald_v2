@@ -1300,6 +1300,46 @@ static const u8 sEverstoneDesc[] = _(
     "item that prevents\n"
     "evolution.");
 
+static const u8 sAquixDesc[] = _(
+    "A wondrous hold\n"
+    "item that prevents\n"
+    "evolution.");
+
+static const u8 sBurixDesc[] = _(
+    "A wondrous hold\n"
+    "item that prevents\n"
+    "evolution.");
+
+static const u8 sElectrixDesc[] = _(
+    "A wondrous hold\n"
+    "item that prevents\n"
+    "evolution.");
+
+static const u8 sPathixDesc[] = _(
+    "A wondrous hold\n"
+    "item that prevents\n"
+    "evolution.");
+
+static const u8 sPixixDesc[] = _(
+    "A wondrous hold\n"
+    "item that prevents\n"
+    "evolution.");
+
+static const u8 sVerdixDesc[] = _(
+    "A wondrous hold\n"
+    "item that prevents\n"
+    "evolution.");
+
+static const u8 sVoidixDesc[] = _(
+    "A wondrous hold\n"
+    "item that prevents\n"
+    "evolution.");
+
+static const u8 sZerixDesc[] = _(
+    "A wondrous hold\n"
+    "item that prevents\n"
+    "evolution.");
+
 // Nectars
 static const u8 sRedNectarDesc[] = _(
     "Flower nectar that\n"

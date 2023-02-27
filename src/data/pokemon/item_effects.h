@@ -552,6 +552,14 @@ const u8 *const gItemEffectTable[] =
     [ITEM_CHIPPED_POT - ITEM_POTION]      = gItemEffect_EvoItem,
     [ITEM_GALARICA_CUFF - ITEM_POTION]    = gItemEffect_EvoItem,
     [ITEM_GALARICA_WREATH - ITEM_POTION]  = gItemEffect_EvoItem,
+    [ITEM_AQUIX - ITEM_POTION]            = gItemEffect_EvoItem,
+    [ITEM_BURIX - ITEM_POTION]            = gItemEffect_EvoItem,
+    [ITEM_ELECTRIX - ITEM_POTION]         = gItemEffect_EvoItem,
+    [ITEM_PATHIX - ITEM_POTION]           = gItemEffect_EvoItem,
+    [ITEM_PIXIX - ITEM_POTION]            = gItemEffect_EvoItem,
+    [ITEM_VERDIX - ITEM_POTION]           = gItemEffect_EvoItem,
+    [ITEM_VOIDIX - ITEM_POTION]           = gItemEffect_EvoItem,
+    [ITEM_ZERIX - ITEM_POTION]            = gItemEffect_EvoItem,
 
     // Berries
     [ITEM_CHERI_BERRY - ITEM_POTION]      = gItemEffect_CheriBerry,

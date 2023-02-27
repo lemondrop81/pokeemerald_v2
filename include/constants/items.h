@@ -928,7 +928,17 @@
 #define ITEM_RUBY 756
 #define ITEM_SAPPHIRE 757
 
-#define ITEMS_COUNT 758
+// Custom evolution items
+#define ITEM_AQUIX 758
+#define ITEM_BURIX 759
+#define ITEM_ELECTRIX 760
+#define ITEM_PATHIX 761
+#define ITEM_PIXIX 762
+#define ITEM_VERDIX 763
+#define ITEM_VOIDIX 764
+#define ITEM_ZERIX 765
+
+#define ITEMS_COUNT 766
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
