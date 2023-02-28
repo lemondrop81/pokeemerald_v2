@@ -1301,44 +1301,44 @@ static const u8 sEverstoneDesc[] = _(
     "evolution.");
 
 static const u8 sAquixDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Water Type");
 
 static const u8 sBurixDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Fire Type");
 
 static const u8 sElectrixDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "A serum which causes\n"
+    "the user to gain\n"
+    "the Electric Type.");
 
 static const u8 sPathixDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Psychic Type");
 
 static const u8 sPixixDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Fairy Type");
 
 static const u8 sVerdixDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Grass Type");
 
 static const u8 sVoidixDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "A serum which causes\n"
+    "the user to gain\n"
+    "the Dark Type.");
 
 static const u8 sZerixDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Ice Type");
 
 // Nectars
 static const u8 sRedNectarDesc[] = _(
