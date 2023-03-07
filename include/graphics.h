@@ -7675,7 +7675,7 @@ extern const u8 gMonFootprint_Zereon[];
 extern const u8 gMonFootprint_Noctiveon[];
 extern const u8 gMonFootprint_Pineon[];
 extern const u8 gMonFootprint_Pixeon[];
-extern const u8 gMonFootprint_lunneon[];
+extern const u8 gMonFootprint_Lunneon[];
 extern const u8 gMonFootprint_Cherreon[];
 extern const u8 gMonFootprint_Hazeon[];
 extern const u8 gMonFootprint_Sereneon[];
