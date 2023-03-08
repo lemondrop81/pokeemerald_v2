@@ -11738,7 +11738,343 @@ const struct PokedexEntry gPokedexEntries[] =
         .categoryName = _("Ghoul"),
         .height = 11,
         .weight = 77,
-        .description = gGhoulslashPokedexText,
+        .description = gMurkeonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_MURKEON] =
+    {
+        .categoryName = _("Nocturnal"),
+        .height = 11,
+        .weight = 77,
+        .description = gTusgoyfPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_OBSIDEON] =
+    {
+        .categoryName = _("Obsidian"),
+        .height = 11,
+        .weight = 77,
+        .description = gObsideonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_FUREON] =
+    {
+        .categoryName = _("Tempest"),
+        .height = 11,
+        .weight = 77,
+        .description = gFureonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    
+    [NATIONAL_DEX_SOOTHEON] =
+    {
+        .categoryName = _("Nocturnal"),
+        .height = 11,
+        .weight = 77,
+        .description = gSootheonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_MOOREON] =
+    {
+        .categoryName = _("Swamp"),
+        .height = 11,
+        .weight = 77,
+        .description = gMooreonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_FROSTEON] =
+    {
+        .categoryName = _("Frost"),
+        .height = 11,
+        .weight = 77,
+        .description = gFrosteonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    
+    [NATIONAL_DEX_RADEON] =
+    {
+        .categoryName = _("Convection"),
+        .height = 11,
+        .weight = 77,
+        .description = gRadeonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_POSPHEON] =
+    {
+        .categoryName = _("Glowing"),
+        .height = 11,
+        .weight = 77,
+        .description = gPospheonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_PULSEON] =
+    {
+        .categoryName = _("Pulse"),
+        .height = 11,
+        .weight = 77,
+        .description = gPulseonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_STATICEON] =
+    {
+        .categoryName = _("Nocturnal"),
+        .height = 11,
+        .weight = 77,
+        .description = gStaticeonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_BLIZZEON] =
+    {
+        .categoryName = _("Blizzard"),
+        .height = 11,
+        .weight = 77,
+        .description = gBlizzeonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    
+    [NATIONAL_DEX_DYNAMEON] =
+    {
+        .categoryName = _("Kinetic Fire"),
+        .height = 11,
+        .weight = 77,
+        .description = gDynameonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DEVILEON] =
+    {
+        .categoryName = _("Devil"),
+        .height = 11,
+        .weight = 77,
+        .description = gDevileonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_CINDEREON] =
+    {
+        .categoryName = _("Wildfire"),
+        .height = 11,
+        .weight = 77,
+        .description = gCindereonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    
+    [NATIONAL_DEX_BLANEON] =
+    {
+        .categoryName = _("Hot Ice"),
+        .height = 11,
+        .weight = 77,
+        .description = gBlaneonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_ECLIPSEON] =
+    {
+        .categoryName = _("Evil"),
+        .height = 11,
+        .weight = 77,
+        .description = gEclipseonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_AROMEON] =
+    {
+        .categoryName = _("Temple"),
+        .height = 11,
+        .weight = 77,
+        .description = gAromeonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    
+    [NATIONAL_DEX_ISYCLEON] =
+    {
+        .categoryName = _("Nocturnal"),
+        .height = 11,
+        .weight = 77,
+        .description = gIsycleonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_ZEREON] =
+    {
+        .categoryName = _("Winter Night"),
+        .height = 11,
+        .weight = 77,
+        .description = gZereonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_NOCTIVEON] =
+    {
+        .categoryName = _("Nocturnal"),
+        .height = 11,
+        .weight = 77,
+        .description = gNoctiveonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    
+    [NATIONAL_DEX_PINEON] =
+    {
+        .categoryName = _("Pine"),
+        .height = 11,
+        .weight = 77,
+        .description = gPineonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_PIXEON] =
+    {
+        .categoryName = _("Pixel"),
+        .height = 11,
+        .weight = 77,
+        .description = gPixeonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_LUNNEON] =
+    {
+        .categoryName = _("Lunar"),
+        .height = 11,
+        .weight = 77,
+        .description = gLunneonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    
+    [NATIONAL_DEX_CHERREON] =
+    {
+        .categoryName = _("Sakura"),
+        .height = 11,
+        .weight = 77,
+        .description = gCherreonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_HAZEON] =
+    {
+        .categoryName = _("Haze"),
+        .height = 11,
+        .weight = 77,
+        .description = gHazeonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_SERENEON] =
+    {
+        .categoryName = _("Serene"),
+        .height = 11,
+        .weight = 77,
+        .description = gSereneonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_MISTEON] =
+    {
+        .categoryName = _("Glare"),
+        .height = 11,
+        .weight = 77,
+        .description = gMisteonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_PUREON] =
+    {
+        .categoryName = _("Pure"),
+        .height = 11,
+        .weight = 77,
+        .description = gPureonPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,

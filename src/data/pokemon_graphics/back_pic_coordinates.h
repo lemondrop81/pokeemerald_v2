@@ -1012,7 +1012,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_RADEON]                       = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  0 },
     [SPECIES_POSPHEON]                     = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  0 },
     [SPECIES_PULSEON]                      = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  0 },
-    [SPECIES_STATICEONT]                   = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  0 },
+    [SPECIES_STATICEON]                    = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  0 },
     [SPECIES_BLIZZEON]                     = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  0 },
     [SPECIES_DYNAMEON]                     = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  0 },
     [SPECIES_DEVILEON]                     = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  0 },

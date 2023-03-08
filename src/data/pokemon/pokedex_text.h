@@ -5774,4 +5774,158 @@ const u8 gGhoulslashPokedexText[] = _(
     "Its blurred shape allows it to move at\n"
     "unpredictable speeds, enabling it to\n"
     "catch prey off-guard.");
+
+const u8 gMurkeonPokedexText[] = _(
+    "Murkeon is a cunning and stealthy\n"
+    "predator, able to move silently\n"
+    "through the water and ambush its\n"
+    "prey with razor-sharp claws.");
+
+const u8 gObsideonPokedexText[] = _(
+    "Obsideon live deep underground.\n"
+    "They can control the flow of lava\n"
+    "and water with their movement.");
+
+const u8 gFureonPokedexText[] = _(
+    "Fureon are very quick. They chase\n"
+    "lightning bolts during a storm to\n"
+    "power themselves up.");
+
+const u8 gSootheonPokedexText[] = _(
+    "Sootheon possesses powerful psychic\n"
+    "abilities that allow it to communicate\n"
+    "telepathically with other Pokemon and\n"
+    "read their thoughts.");
+
+const u8 gMooreonPokedexText[] = _(
+    "Mooreon is a graceful swimmer and\n"
+    "is often found near the banks of\n"
+    "rivers and lakes where it feeds\n"
+    "on aquatic plants.");
+
+const u8 gFrosteonPokedexText[] = _(
+    "Frosteon inhabit tundras and have\n"
+    "the ability to instantly\n"
+    "freeze water.");
+
+const u8 gRadeonPokedexText[] = _(
+    "Radeon release all the heat from\n"
+    "their bodies so they do not\n"
+    "get excessively hot.");
+
+const u8 gPospheonPokedexText[] = _(
+    "Pospheon generates electricity\n"
+    "using darkness. It is the first\n"
+    "DNA experiment on Eevee which\n"
+    "was successful.");
+
+const u8 gPulseonPokedexText[] = _(
+    "Pulseon can use its psychic powers to\n"
+    "control and manipulate electricity,\n"
+    "creating powerful bolts of lightning that\n"
+    "can strike its opponents from a distance.");
+
+const u8 gStaticeonPokedexText[] = _(
+    "Staticeon's body is covered in a\n"
+    "lush, green moss that generates\n"
+    "electricity from the sun's energy.");
+
+const u8 gBlizzeonPokedexText[] = _(
+    "Blizzeon generate electricity, like\n"
+    "a turbine, during snowstorms. They\n"
+    "use this electricity to generate warmth.");
+
+const u8 gDynameonPokedexText[] = _(
+    "Dynameon are loved by their owners\n"
+    "because of their loyalty. Deadly in\n"
+    "battle, and they always seem to be\n"
+    "by their trainers side..");
+
+const u8 gDevileonPokedexText[] = _(
+    "Devileon is a fierce predator with\n"
+    "razor-sharp claws and an intense\n"
+    "flame that burns within its body.");
+
+const u8 gCindereonPokedexText[] = _(
+    "Cindereon is a rare and powerful Eevee\n"
+    "evolution that is able to harness both\n"
+    "the energy of the sun and the heat\n"
+    "of flames.");
+
+const u8 gBlaneonPokedexText[] = _(
+    "Blaneon is the perfect result of\n"
+    "defying science. It has the ability\n"
+    "to change temperature freely,\n"
+    "preventing it from becoming stone.");
+
+const u8 gEclipseonPokedexText[] = _(
+    "This elusive Pokémon is said to\n"
+    "possess the ability to manipulate\n"
+    "shadows to its will.");
+
+const u8 gAromeonPokedexText[] = _(
+    "Aromeon live in ancient areas.\n"
+    "They have telepathic abilities which\n"
+    "help them defend the overgrown areas.");
+
+const u8 gIsycleonPokedexText[] = _(
+    "This rare Eevee evolution is said\n"
+    "to possess powerful psychic abilities\n"
+    "that allow it to control ice and\n"
+    "snow with ease.");
+
+const u8 gZereonPokedexText[] = _(
+    "Zereon has adapted to the frigid\n"
+    "temperatures of the far north,\n"
+    "where it hunts its prey in the\n"
+    "dark of night.");
+
+const u8 gNoctiveonPokedexText[] = _(
+    "Noctiveon is known for its ability\n"
+    "to blend in with the darkness of\n"
+    "the forest and move silently through\n"
+    "the underbrush. ");
+
+const u8 gPineonPokedexText[] = _(
+    "Pineon's body is covered in a\n"
+    "layer of frost, which it can\n"
+    "manipulate to create beautiful\n"
+    "patterns on its fur.");
+
+const u8 gPixeonPokedexText[] = _(
+    "Pixeon are incredibly intelligent.\n"
+    "However, their favourite thing to\n"
+    "do is to play video games.");
+
+const u8 gLunneonPokedexText[] = _(
+    "Luneon often stays up at night\n"
+    "stargazing and cherishing the moon.\n"
+    "For whatever reason, it shares a\n"
+    "rivalry with Eclipseon.");
+
+const u8 gCherreonPokedexText[] = _(
+    "Cherreon shares similar abilities\n"
+    "to Shaymin. Specifically, it can\n"
+    "heal dead flowers almost instantly.");
+
+const u8 gHazeonPokedexText[] = _(
+    "Hazeon is very territorial, and will\n"
+    "often defend its turf by setting\n"
+    "up shields of ice.");
+
+const u8 gSereneonPokedexText[] = _(
+    "Sereneon is a surprisingly discreet\n"
+    "Pokemon. Only trainers who share a\n"
+    "special trust with Sereneon will be\n"
+    "able to utilize its full potential.");
+
+const u8 gMisteonPokedexText[] = _(
+    "This species awakens every day\n"
+    "at 5AM sharp to catch the sunrise.");
+
+const u8 gPureonPokedexText[] = _(
+    "Pureon has the ability to walk and\n"
+    "run on water, which helps it to\n"
+    "catch prey on all surfaces.");
+
 #endif
