@@ -4275,6 +4275,118 @@ Cry_Vellidaxos::
 Cry_Ghoulslash::
 	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
 
+.align 2
+Cry_Murkeon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Obsideon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Fureon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Sootheon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Mooreon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Frosteon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Radeon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Pospheon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Pulseon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Staticeon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Blizzeon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Dynameon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Devileon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Cindereon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Blaneon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Eclipseon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Aromeon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Isycleon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Zereon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Noctiveon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Pineon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Pixeon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+	.align 2
+Cry_Lunneon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Cherreon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Hazeon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Sereneon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Misteon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
+.align 2
+Cry_Pureon::
+	.incbin "sound/direct_sound_samples/cries/calyrex.bin"
+
 /*
 	.align 2
 Cry_Wyrdeer::
