@@ -4950,6 +4950,174 @@ static const union AnimCmd sAnim_Ghoulslash_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Murkeon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Obsideon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Fureon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Sootheon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Mooreon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Frosteon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Radeon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pospheon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pulseon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Staticeon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Blizzeon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Dynameon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Devileon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Cindereon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Blaneon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Eclipseon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Aromeon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Isycleon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Zereon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Noctiveon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pineon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pixeon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Lunneon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Cherreon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Hazeon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Sereneon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Misteon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pureon_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Egg_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -11408,6 +11576,34 @@ SINGLE_ANIMATION(Chrysal);
 SINGLE_ANIMATION(Vellavale);
 SINGLE_ANIMATION(Vellidaxos);
 SINGLE_ANIMATION(Ghoulslash);
+SINGLE_ANIMATION(Murkeon);
+SINGLE_ANIMATION(Obsideon);
+SINGLE_ANIMATION(Fureon);
+SINGLE_ANIMATION(Sootheon);
+SINGLE_ANIMATION(Mooreon);
+SINGLE_ANIMATION(Frosteon);
+SINGLE_ANIMATION(Radeon);
+SINGLE_ANIMATION(Pospheon);
+SINGLE_ANIMATION(Pulseon);
+SINGLE_ANIMATION(Staticeon);
+SINGLE_ANIMATION(Blizzeon);
+SINGLE_ANIMATION(Dynameon);
+SINGLE_ANIMATION(Devileon);
+SINGLE_ANIMATION(Cindereon);
+SINGLE_ANIMATION(Blaneon);
+SINGLE_ANIMATION(Eclipseon);
+SINGLE_ANIMATION(Aromeon);
+SINGLE_ANIMATION(Isycleon);
+SINGLE_ANIMATION(Zereon);
+SINGLE_ANIMATION(Noctiveon);
+SINGLE_ANIMATION(Pineon);
+SINGLE_ANIMATION(Pixeon);
+SINGLE_ANIMATION(Lunneon);
+SINGLE_ANIMATION(Cherreon);
+SINGLE_ANIMATION(Hazeon);
+SINGLE_ANIMATION(Sereneon);
+SINGLE_ANIMATION(Misteon);
+SINGLE_ANIMATION(Pureon);
 
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
@@ -12603,6 +12799,34 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_VELLAVALE]   = sAnims_Vellavale,
     [SPECIES_VELLIDAXOS]  = sAnims_Vellidaxos,
     [SPECIES_GHOULSLASH]  = sAnims_Ghoulslash,
+    [SPECIES_MURKEON]     = sAnims_Murkeon,
+    [SPECIES_OBSIDEON]    = sAnims_Obsideon,
+    [SPECIES_FUREON]      = sAnims_Fureon,
+    [SPECIES_SOOTHEON]    = sAnims_Sootheon,
+    [SPECIES_MOOREON]     = sAnims_Mooreon,
+    [SPECIES_FROSTEON]    = sAnims_Frosteon,
+    [SPECIES_RADEON]      = sAnims_Radeon,
+    [SPECIES_POSPHEON]    = sAnims_Pospheon,
+    [SPECIES_PULSEON]     = sAnims_Pulseon,
+    [SPECIES_STATICEON]   = sAnims_Staticeon,
+    [SPECIES_BLIZZEON]    = sAnims_Blizzeon,
+    [SPECIES_DYNAMEON]    = sAnims_Dynameon,
+    [SPECIES_DEVILEON]    = sAnims_Devileon,
+    [SPECIES_CINDEREON]   = sAnims_Cindereon,
+    [SPECIES_BLANEON]     = sAnims_Blaneon,
+    [SPECIES_ECLIPSEON]   = sAnims_Eclipseon,
+    [SPECIES_AROMEON]     = sAnims_Aromeon,
+    [SPECIES_ISYCLEON]    = sAnims_Isycleon,
+    [SPECIES_ZEREON]      = sAnims_Zereon,
+    [SPECIES_NOCTIVEON]   = sAnims_Noctiveon,
+    [SPECIES_PINEON]      = sAnims_Pineon,
+    [SPECIES_PIXEON]      = sAnims_Pixeon,
+    [SPECIES_LUNNEON]     = sAnims_Lunneon,
+    [SPECIES_CHERREON]    = sAnims_Cherreon,
+    [SPECIES_HAZEON]      = sAnims_Hazeon,
+    [SPECIES_SERENEON]    = sAnims_Sereneon,
+    [SPECIES_MISTEON]     = sAnims_Misteon,
+    [SPECIES_PUREON]      = sAnims_Pureon,
     
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_TURTWIG] = sAnims_Turtwig,

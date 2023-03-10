@@ -1300,6 +1300,46 @@ static const u8 sEverstoneDesc[] = _(
     "item that prevents\n"
     "evolution.");
 
+static const u8 sAquixDesc[] = _(
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Water Type");
+
+static const u8 sBurixDesc[] = _(
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Fire Type");
+
+static const u8 sElectrixDesc[] = _(
+    "A serum which causes\n"
+    "the user to gain\n"
+    "the Electric Type.");
+
+static const u8 sPathixDesc[] = _(
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Psychic Type");
+
+static const u8 sPixixDesc[] = _(
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Fairy Type");
+
+static const u8 sVerdixDesc[] = _(
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Grass Type");
+
+static const u8 sVoidixDesc[] = _(
+    "A serum which causes\n"
+    "the user to gain\n"
+    "the Dark Type.");
+
+static const u8 sZerixDesc[] = _(
+    "A Serum which causes\n"
+    "the user to gain\n"
+    "the Ice Type");
+
 // Nectars
 static const u8 sRedNectarDesc[] = _(
     "Flower nectar that\n"

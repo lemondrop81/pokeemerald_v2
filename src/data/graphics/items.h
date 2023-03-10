@@ -645,6 +645,30 @@ const u32 gItemIconPalette_RibbonSweet[] = INCBIN_U32("graphics/items/icon_palet
 const u32 gItemIcon_Everstone[] = INCBIN_U32("graphics/items/icons/everstone.4bpp.lz");
 const u32 gItemIconPalette_Everstone[] = INCBIN_U32("graphics/items/icon_palettes/everstone.gbapal.lz");
 
+const u32 gItemIcon_Aquix[] = INCBIN_U32("graphics/items/icons/aquix.4bpp.lz");
+const u32 gItemIconPalette_Aquix[] = INCBIN_U32("graphics/items/icon_palettes/aquix.gbapal.lz");
+
+const u32 gItemIcon_Burix[] = INCBIN_U32("graphics/items/icons/burix.4bpp.lz");
+const u32 gItemIconPalette_Burix[] = INCBIN_U32("graphics/items/icon_palettes/burix.gbapal.lz");
+
+const u32 gItemIcon_Electrix[] = INCBIN_U32("graphics/items/icons/electrix.4bpp.lz");
+const u32 gItemIconPalette_Electrix[] = INCBIN_U32("graphics/items/icon_palettes/electrix.gbapal.lz");
+
+const u32 gItemIcon_Pathix[] = INCBIN_U32("graphics/items/icons/pathix.4bpp.lz");
+const u32 gItemIconPalette_Pathix[] = INCBIN_U32("graphics/items/icon_palettes/pathix.gbapal.lz");
+
+const u32 gItemIcon_Pixix[] = INCBIN_U32("graphics/items/icons/pixix.4bpp.lz");
+const u32 gItemIconPalette_Pixix[] = INCBIN_U32("graphics/items/icon_palettes/pixix.gbapal.lz");
+
+const u32 gItemIcon_Verdix[] = INCBIN_U32("graphics/items/icons/verdix.4bpp.lz");
+const u32 gItemIconPalette_Verdix[] = INCBIN_U32("graphics/items/icon_palettes/verdix.gbapal.lz");
+
+const u32 gItemIcon_Voidix[] = INCBIN_U32("graphics/items/icons/voidix.4bpp.lz");
+const u32 gItemIconPalette_Voidix[] = INCBIN_U32("graphics/items/icon_palettes/voidix.gbapal.lz");
+
+const u32 gItemIcon_Zerix[] = INCBIN_U32("graphics/items/icons/zerix.4bpp.lz");
+const u32 gItemIconPalette_Zerix[] = INCBIN_U32("graphics/items/icon_palettes/zerix.gbapal.lz");
+
 // Nectars
 
 const u32 gItemIcon_RedNectar[] = INCBIN_U32("graphics/items/icons/red_nectar.4bpp.lz");

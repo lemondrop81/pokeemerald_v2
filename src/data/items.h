@@ -3181,6 +3181,102 @@ const struct Item gItems[] =
         .flingPower = 30,
     },
 
+    [ITEM_AQUIX] =
+    {
+        .name = _("Aquix"),
+        .itemId = ITEM_AQUIX,
+        .price = 3000,
+        .description = sAquixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .flingPower = 30,
+    },
+
+    [ITEM_BURIX] =
+    {
+        .name = _("Burix"),
+        .itemId = ITEM_BURIX,
+        .price = 3000,
+        .description = sBurixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .flingPower = 30,
+    },
+
+    [ITEM_ELECTRIX] =
+    {
+        .name = _("Electrix"),
+        .itemId = ITEM_ELECTRIX,
+        .price = 3000,
+        .description = sElectrixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .flingPower = 30,
+    },
+
+    [ITEM_PATHIX] =
+    {
+        .name = _("Pathix"),
+        .itemId = ITEM_PATHIX,
+        .price = 3000,
+        .description = sPathixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .flingPower = 30,
+    },
+
+    [ITEM_PIXIX] =
+    {
+        .name = _("Pixix"),
+        .itemId = ITEM_PIXIX,
+        .price = 3000,
+        .description = sPixixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .flingPower = 30,
+    },
+
+    [ITEM_VERDIX] =
+    {
+        .name = _("Verdix"),
+        .itemId = ITEM_VERDIX,
+        .price = 3000,
+        .description = sVerdixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .flingPower = 30,
+    },
+
+    [ITEM_VOIDIX] =
+    {
+        .name = _("Voidix"),
+        .itemId = ITEM_VOIDIX,
+        .price = 3000,
+        .description = sVoidixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .flingPower = 30,
+    },
+
+    [ITEM_ZERIX] =
+    {
+        .name = _("Zerix"),
+        .itemId = ITEM_ZERIX,
+        .price = 3000,
+        .description = sZerixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .flingPower = 30,
+    },
+
 // Nectars
 
     [ITEM_RED_NECTAR] =

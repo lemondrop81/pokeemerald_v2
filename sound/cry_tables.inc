@@ -1406,6 +1406,34 @@ gCryTable::
 	cry Cry_Vellavale
 	cry Cry_Vellidaxos
 	cry Cry_Ghoulslash
+	cry Cry_Murkeon
+	cry Cry_Obsideon
+	cry Cry_Fureon
+	cry Cry_Sootheon
+	cry Cry_Mooreon
+	cry Cry_Frosteon
+	cry Cry_Radeon
+	cry Cry_Pospheon
+	cry Cry_Pulseon
+	cry Cry_Staticeon
+	cry Cry_Blizzeon
+	cry Cry_Dynameon
+	cry Cry_Devileon
+	cry Cry_Cindereon
+	cry Cry_Blaneon
+	cry Cry_Eclipseon
+	cry Cry_Aromeon
+	cry Cry_Isycleon
+	cry Cry_Zereon
+	cry Cry_Noctiveon
+	cry Cry_Pineon
+	cry Cry_Pixeon
+	cry Cry_Lunneon
+	cry Cry_Cherreon
+	cry Cry_Hazeon
+	cry Cry_Sereneon
+	cry Cry_Misteon
+	cry Cry_Pureon
 	cry Cry_Unown //Cry_Wyrdeer
 	cry Cry_Unown //Cry_Kleavor
 	cry Cry_Unown //Cry_Ursaluna
@@ -3600,6 +3628,34 @@ gCryTable_Reverse::
 	cry_reverse Cry_Vellavale
 	cry_reverse Cry_Vellidaxos
 	cry_reverse Cry_Ghoulslash
+	cry_reverse Cry_Murkeon
+	cry_reverse Cry_Obsideon
+	cry_reverse Cry_Fureon
+	cry_reverse Cry_Sootheon
+	cry_reverse Cry_Mooreon
+	cry_reverse Cry_Frosteon
+	cry_reverse Cry_Radeon
+	cry_reverse Cry_Pospheon
+	cry_reverse Cry_Pulseon
+	cry_reverse Cry_Staticeon
+	cry_reverse Cry_Blizzeon
+	cry_reverse Cry_Dynameon
+	cry_reverse Cry_Devileon
+	cry_reverse Cry_Cindereon
+	cry_reverse Cry_Blaneon
+	cry_reverse Cry_Eclipseon
+	cry_reverse Cry_Aromeon
+	cry_reverse Cry_Isycleon
+	cry_reverse Cry_Zereon
+	cry_reverse Cry_Noctiveon
+	cry_reverse Cry_Pineon
+	cry_reverse Cry_Pixeon
+	cry_reverse Cry_Lunneon
+	cry_reverse Cry_Cherreon
+	cry_reverse Cry_Hazeon
+	cry_reverse Cry_Sereneon
+	cry_reverse Cry_Misteon
+	cry_reverse Cry_Pureon
 
 	cry_reverse Cry_Unown //Cry_Wyrdeer
 	cry_reverse Cry_Unown //Cry_Kleavor
