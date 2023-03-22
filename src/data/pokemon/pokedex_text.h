@@ -2190,7 +2190,7 @@ const u8 gKirliaPokedexText[] = _(
 const u8 gGardevoirPokedexText[] = _(
     "To protect its trainer, it can drop the\n"
     "temperature of itself and its surroundings\n"
-    "to 0°K. It discharges sparks when nuzzling\n"
+    "to 0K. It discharges sparks when nuzzling\n"
     "trainers to keep them from freezing. ");
 
 const u8 gBagonPokedexText[] = _(

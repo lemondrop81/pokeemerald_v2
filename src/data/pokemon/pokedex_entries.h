@@ -2306,7 +2306,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SUNFLORA] =
     {
-        .categoryName = _("Burning Sludge"),
+        .categoryName = _("Flame Sludge"),
         .height = 8,
         .weight = 85,
         .description = gSunfloraPokedexText,

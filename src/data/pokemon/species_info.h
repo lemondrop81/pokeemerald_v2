@@ -16440,7 +16440,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
-        abilities = {ABILITY_DEFIANT, ABILITY_FRISK, ABILITY_TECHNICIAN},
+        .abilities = {ABILITY_DEFIANT, ABILITY_FRISK, ABILITY_TECHNICIAN},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
