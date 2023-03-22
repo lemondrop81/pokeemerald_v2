@@ -169,7 +169,7 @@
                 "min_level": 4,
                 "max_level": 4,
                 "species": "SPECIES_BIRROBIRD"
-              },
+              }
             ]
           },
           "water_mons": {
@@ -267,12 +267,12 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_SCUIRET"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_BIRROBIRD"
               },
               {
                 "min_level": 3,
@@ -282,7 +282,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_KOFFING"
               },
               {
                 "min_level": 2,
@@ -307,7 +307,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_KOFFING"
               },
               {
                 "min_level": 3,
@@ -332,27 +332,27 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_KROA"
               },
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_KROA"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_KROA"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_PELIPPER"
+                "species": "SPECIES_KROA"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_PELIPPER"
+                "species": "SPECIES_KROA"
               }
             ]
           },
@@ -818,12 +818,12 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_SANDSHREW"
+                "species": "SPECIES_GRIMER"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_TRAPINCH"
+                "species": "SPECIES_TANGELA"
               },
               {
                 "min_level": 21,
@@ -838,42 +838,42 @@
               {
                 "min_level": 19,
                 "max_level": 19,
-                "species": "SPECIES_BALTOY"
+                "species": "SPECIES_OVARAPT"
               },
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_BALTOY"
+                "species": "SPECIES_RIOLU"
               },
               {
                 "min_level": 19,
                 "max_level": 19,
-                "species": "SPECIES_SANDSHREW"
+                "species": "SPECIES_DEINO"
               },
               {
                 "min_level": 19,
                 "max_level": 19,
-                "species": "SPECIES_TRAPINCH"
+                "species": "SPECIES_DEINO"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_BALTOY"
+                "species": "SPECIES_RIOLU"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_CACNEA"
+                "species": "SPECIES_OVARAPT"
               },
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_CACNEA"
+                "species": "SPECIES_TANGELA"
               },
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_CACNEA"
+                "species": "SPECIES_GRIMER"
               }
             ]
           },
@@ -1805,7 +1805,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_BIRROBIRD"
+                "species": "SPECIES_SCRAGGY"
               },
               {
                 "min_level": 5,
@@ -1830,7 +1830,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BIRROBIRD"
+                "species": "SPECIES_SCRAGGY"
               },
               {
                 "min_level": 5,
