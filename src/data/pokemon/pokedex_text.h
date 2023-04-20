@@ -5879,4 +5879,199 @@ const u8 gPureonPokedexText[] = _(
     "run on water, which helps it to\n"
     "catch prey on all surfaces.");
 
+const u8 gSalatadPokedexText[] = _(
+    "Salatad are born in small bodies of water,\n"
+    "and live there until they evolve. Their powerful\n"
+    "tails make them excellent swimmers\n"
+    "for escaping predators.");
+
+const u8 gSalanipPokedexText[] = _(
+    "More adapted to land than its previous\n"
+    "evolution, Salanip has developed sharper\n"
+    "claws. Its poison sacs allow it to stun prey.");
+
+const u8 gSalaslamPokedexText[] = _(
+    "This Pokémon can slug prey with its powerful\n"
+    "arms and tail. Salaslam can excrete toxins\n"
+    "through its mouth and skin.");
+
+const u8 gHalmstarPokedexText[] = _(
+    "This Pokémon is a favored pet because of their\n"
+    "soft fur and gentle nature. It has been said\n"
+    "that touching the star on the back of a\n"
+    "Hamstar will bring you good luck.");
+
+const u8 gSnuffuzzPokedexText[] = _(
+    "Snuffuzz are known for their extremely soft\n"
+    "fur. Bird Pokémon often collect their\n"
+    "shed winter coats each spring\n"
+    "for their nests.");
+
+const u8 gStickitPokedexText[] = _(
+    "Stickit will burrow themselves underground\n"
+    "near the roots of trees in order to sleep.\n"
+    "Their tough backs assist in defending\n"
+    "against predators.");
+
+const u8 gStickutPokedexText[] = _(
+    "Only one Stickut inhabits each tree in the\n"
+    "forest. If another Stickut appears, they'll\n"
+    "fight to toss their opponent off. The victor\n"
+    "stays while the loser seeks a new tree.");
+
+const u8 gUglingPokedexText[] = _(
+    "Because of its undeveloped wings, it\n"
+    "is unable to fly. It's very skilled at\n"
+    "swimming though, as it can dive for over\n"
+    "10 minutes to hunt.");
+
+const u8 gSwellegantPokedexText[] = _(
+    "Even though they are one of the most\n"
+    "beautiful Pokémon in Rikoto, Swellegant are\n"
+    "extremely vain. They spend most their time\n"
+    "staring at their reflections in ponds.");
+
+const u8 gAnglingPokedexText[] = _(
+    "Angling are especially small among Water\n"
+    "type Pokémon. By using their cute eyes as a\n"
+    "defense mechanism, they convince predators to\n"
+    "hunt for other Pokémon instead.");
+
+const u8 gAngelishPokedexText[] = _(
+    "Angelish love to swim in the ocean. They\n"
+    "fall sick and become dull-colored when kept\n"
+    "in aquarium or other enclosed areas.");
+
+const u8 gAngelightPokedexText[] = _(
+    "Angelight are considered one of the most\n"
+    "beautiful Pokémon in the oceans of Rikoto,\n"
+    "and yet they do not actively look down on\n"
+    "other Pokémon for not being as beautiful.");
+
+const u8 gAquadPokedexText[] = _(
+    "Aquad often swim against river currents\n"
+    "in order to train their muscles. They\n"
+    "swish their strong tails in order to\n"
+    "help themselves keep steady.");
+
+const u8 gSmaquaPokedexText[] = _(
+    "Smaqua train by standing on rocks\n"
+    "in the center of whitewater rapids,\n"
+    "avoiding and smashing any obstacles that\n"
+    "may wash down the river.");
+
+const u8 gBeopupPokedexText[] = _(
+    "Beopup hunt in packs, in every pack there's\n"
+    "an Alpha. In order to be Alpha they must know\n"
+    "a certain move, if another Beopup learns that\n"
+    "move, it can compete for the role of Alpha.");
+
+const u8 gWerehidePokedexText[] = _(
+    "A vicious and rarely tamed Pokémon, in\n"
+    "ancient times Werehide were thought to\n"
+    "be cursed humans that became Pokémon\n"
+    "every full moon");
+
+const u8 gVambatPokedexText[] = _(
+    "Vambat, while usually a friendly Pokémon,\n"
+    "becomes aggressive when hungry. They will\n"
+    "usually sap blood from other Pokémon,\n"
+    "having a dislike for human blood.");
+
+const u8 gDracubatPokedexText[] = _(
+    "Dracubat's night vision is second to\n"
+    "none, making them very powerful Pokémon\n"
+    "at night. It leeches blood from other\n"
+    "Pokémon in order to recover its own health.");
+
+const u8 gCountulaPokedexText[] = _(
+    "Countula are known as Terrors of the Night.\n"
+    "Hiding in the shadows, they are capable of\n"
+    "draining life from other Pokémon without\n"
+    "their victims even noticing.");
+
+const u8 gPupoolPokedexText[] = _(
+    "Pupool have a tendency to gnaw on\n"
+    "everything. Trainers have to take care\n"
+    "to clean up their drool from\n"
+    "their furnitures.");
+
+const u8 gPooldogPokedexText[] = _(
+    "A popular household Pokémon due to\n"
+    "their loyalty and gentle disposition.\n"
+    "Their drool always hangs from their jowls,\n"
+    "if removed, it will reform immediately.");
+
+const u8 gPorfinPokedexText[] = _(
+    "Porfin are a docile species of Pokémon.\n"
+    "They have a close relationship with humans;\n"
+    "some may even allow children to\n"
+    "play amongst them.");
+
+const u8 gDoflapPokedexText[] = _(
+    "Doflap can swim at amazing speeds\n"
+    "with great maneuverability. They\n"
+    "create water rings for themselves\n"
+    "to swim through for fun.");
+
+const u8 gParadisoPokedexText[] = _(
+    "Parasea kindly allows other smaller\n"
+    "Pokémon to perch on its back when\n"
+    "crossing the ocean. Few attack it due\n"
+    "to its gentle nature and strong fins.");
+
+const u8 gParaseaPokedexText[] = _(
+    "There are stories of shipwreck survivors\n"
+    "mistaking Paradiso for an island, only\n"
+    "to wake up on the shores as the island\n"
+    "they were on has disappeared.");
+
+const u8 gAqlarvaPokedexText[] = _(
+    "Aqlarva keeps a bubble of water around\n"
+    "it when it is out of water. In dry areas,\n"
+    "it is a necessity for trainers to provide\n"
+    "it with additional water supply.");
+
+const u8 gMosliquoPokedexText[] = _(
+    "Mosliquo sips clean water from swamps and\n"
+    "rivers using their long mouthparts. Some\n"
+    "Mosliquo also consumes fruits; they ferment\n"
+    "inside its abodmen and become fine wine.");
+
+const u8 gNawalePokedexText[] = _(
+    "Nawale charge horn first into anything\n"
+    "that intrudes their territory. Many Nawale\n"
+    "have broken their horns from ramming\n"
+    "into larger ships.");
+
+const u8 gWhaleyPokedexText[] = _(
+    "Whaley's blubbery skin protects it from the\n"
+    "cold, deep ocean. Without a lung large enough\n"
+    "to hold their breath for long, however, they\n"
+    "can only dive underseas for under an hour.");
+
+const u8 gSquidartPokedexText[] = _(
+    "Squidart propel themselves by shooting ink\n"
+    "from behind at high pressure, as well as\n"
+    "blinding their predators at the same time.\n"
+    "Their ink do not disappear until after a day.");
+
+const u8 gLisquidPokedexText[] = _(
+    "Considered to be one of the ocean’s most\n"
+    "dangerous predators, Lisquid are both\n"
+    "intelligent and ruthless, using their ink\n"
+    "and limbs to attack prey.");
+
+const u8 gHamawlPokedexText[] = _(
+    "Hamawl smash rocks on the seabed open to\n"
+    "find preys living within. Their eyelids are\n"
+    "coated in steel to protect them from impact\n"
+    "when Hamawl are hammering rocks.");
+
+const u8 gSilviciousPokedexText[] = _(
+    "Silvicious often spend time by their\n"
+    "lonesome when swimming. When one encounters\n"
+    "another Silvicious, they compete in\n"
+    "fights of brute strength.");
+
 #endif
