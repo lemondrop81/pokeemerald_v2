@@ -2897,6 +2897,7 @@ static const u16 sVictreebelTeachableLearnset[] = {
 
 static const u16 sTentacoolTeachableLearnset[] = {
     MOVE_ATTRACT,
+    MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -2928,6 +2929,7 @@ static const u16 sTentacoolTeachableLearnset[] = {
 
 static const u16 sTentacruelTeachableLearnset[] = {
     MOVE_ATTRACT,
+    MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
