@@ -13878,42 +13878,42 @@ static const struct TrainerMonItemCustomMoves sParty_Steven[] = {
     .iv = 255,
     .lvl = 77,
     .species = SPECIES_SKARMOROS,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_SKY_ATTACK, MOVE_DRAGON_CLAW, MOVE_STEEL_WING, MOVE_ROOST}
     },
     {
     .iv = 255,
     .lvl = 75,
     .species = SPECIES_TORKYLLIUM,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_IRON_HEAD, MOVE_AUTOTOMIZE, MOVE_ERUPTION, MOVE_SUPERPOWER}
     },
     {
     .iv = 255,
     .lvl = 76,
     .species = SPECIES_MAGMORTAR,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_HYPER_BEAM, MOVE_HYDRO_PUMP, MOVE_METEOR_MASH, MOVE_AURA_SPHERE}
     },
     {
     .iv = 255,
     .lvl = 76,
     .species = SPECIES_OVARAPT,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_DRAGON_HAMMER, MOVE_NIGHT_SLASH, MOVE_BLAZE_KICK, MOVE_BEHEMOTH_BASH}
     },
     {
     .iv = 255,
     .lvl = 76,
     .species = SPECIES_SHINX,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_CRUNCH, MOVE_POISON_JAB, MOVE_IRON_TAIL, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
     .lvl = 78,
     .species = SPECIES_ALCESTEEL,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_AERIAL_ACE, MOVE_IRON_HEAD, MOVE_FALSE_SURRENDER, MOVE_AVALANCHE}
     }
 };
