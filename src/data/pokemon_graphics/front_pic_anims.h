@@ -5118,6 +5118,204 @@ static const union AnimCmd sAnim_Pureon_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Angelight_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Angelish_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Angling_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Aqlarva_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Aquad_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Beopup_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Countula_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Doflap_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Dracubat_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Halmstar_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Hamawl_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Lisquid_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Mosliquo_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Nawale_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Paradiso_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Parasea_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pooldog_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Porfin_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Pupool_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Salanip_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Salaslam_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Salatad_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Silvicious_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Smaqua_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Snuffuzz_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Squidart_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Stickit_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Stickut_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Swellegant_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Ugling_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Vambat_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Werehide_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_Whaley_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_Egg_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -11604,6 +11802,39 @@ SINGLE_ANIMATION(Hazeon);
 SINGLE_ANIMATION(Sereneon);
 SINGLE_ANIMATION(Misteon);
 SINGLE_ANIMATION(Pureon);
+SINGLE_ANIMATION(Angelight);
+SINGLE_ANIMATION(Angelish);
+SINGLE_ANIMATION(Angling);
+SINGLE_ANIMATION(Aqlarva);
+SINGLE_ANIMATION(Aquad);
+SINGLE_ANIMATION(Beopup);
+SINGLE_ANIMATION(Countula);
+SINGLE_ANIMATION(Doflap);
+SINGLE_ANIMATION(Dracubat);
+SINGLE_ANIMATION(Halmstar);
+SINGLE_ANIMATION(Hamawl);
+SINGLE_ANIMATION(Lisquid);
+SINGLE_ANIMATION(Mosliquo);
+SINGLE_ANIMATION(Nawale);
+SINGLE_ANIMATION(Paradiso);
+SINGLE_ANIMATION(Parasea);
+SINGLE_ANIMATION(Pooldog);
+SINGLE_ANIMATION(Porfin);
+SINGLE_ANIMATION(Pupool);
+SINGLE_ANIMATION(Salanip);
+SINGLE_ANIMATION(Salaslam);
+SINGLE_ANIMATION(Salatad);
+SINGLE_ANIMATION(Silvicious);
+SINGLE_ANIMATION(Smaqua);
+SINGLE_ANIMATION(Snuffuzz);
+SINGLE_ANIMATION(Squidart);
+SINGLE_ANIMATION(Stickit);
+SINGLE_ANIMATION(Stickut);
+SINGLE_ANIMATION(Swellegant);
+SINGLE_ANIMATION(Ugling);
+SINGLE_ANIMATION(Vambat);
+SINGLE_ANIMATION(Werehide);
+SINGLE_ANIMATION(Whaley);
 
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
@@ -12827,6 +13058,39 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_SERENEON]    = sAnims_Sereneon,
     [SPECIES_MISTEON]     = sAnims_Misteon,
     [SPECIES_PUREON]      = sAnims_Pureon,
+    [SPECIES_ANGELIGHT]   = sAnims_Angelight,
+    [SPECIES_ANGELISH]    = sAnims_Angelish,
+    [SPECIES_ANGLING]     = sAnims_Angling,
+    [SPECIES_AQLARVA]     = sAnims_Aqlarva,
+    [SPECIES_AQUAD]       = sAnims_Aquad,
+    [SPECIES_BEOPUP]      = sAnims_Beopup,
+    [SPECIES_COUNTULA]    = sAnims_Countula,
+    [SPECIES_DOFLAP]      = sAnims_Doflap,
+    [SPECIES_DRACUBAT]    = sAnims_Dracubat,
+    [SPECIES_HALMSTAR]    = sAnims_Halmstar,
+    [SPECIES_HAMAWL]      = sAnims_Hamawl,
+    [SPECIES_LISQUID]     = sAnims_Lisquid,
+    [SPECIES_MOSLIQUO]    = sAnims_Mosliquo,
+    [SPECIES_NAWALE]      = sAnims_Nawale,
+    [SPECIES_PARADISO]    = sAnims_Paradiso,
+    [SPECIES_PARASEA]     = sAnims_Parasea,
+    [SPECIES_POOLDOG]     = sAnims_Pooldog,
+    [SPECIES_PORFIN]      = sAnims_Porfin,
+    [SPECIES_PUPOOL]      = sAnims_Pupool,
+    [SPECIES_SALANIP]     = sAnims_Salanip,
+    [SPECIES_SALASLAM]    = sAnims_Salaslam,
+    [SPECIES_SALATAD]     = sAnims_Salatad,
+    [SPECIES_SILVICIOUS]  = sAnims_Silvicious,
+    [SPECIES_SMAQUA]      = sAnims_Smaqua,
+    [SPECIES_SNUFFUZZ]    = sAnims_Snuffuzz,
+    [SPECIES_SQUIDART]    = sAnims_Squidart,
+    [SPECIES_STICKIT]     = sAnims_Stickit,
+    [SPECIES_STICKUT]     = sAnims_Stickut,
+    [SPECIES_SWELLEGANT]  = sAnims_Swellegant,
+    [SPECIES_UGLING]      = sAnims_Ugling,
+    [SPECIES_VAMBAT]      = sAnims_Vambat,
+    [SPECIES_WEREHIDE]    = sAnims_Werehide,
+    [SPECIES_WHALEY]      = sAnims_Whaley,
     
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_TURTWIG] = sAnims_Turtwig,

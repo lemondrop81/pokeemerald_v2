@@ -1434,6 +1434,39 @@ gCryTable::
 	cry Cry_Sereneon
 	cry Cry_Misteon
 	cry Cry_Pureon
+	cry Cry_Salatad
+	cry Cry_Salanip
+	cry Cry_Salaslam
+	cry Cry_Halmstar
+	cry Cry_Snuffuzz
+	cry Cry_Stickit
+	cry Cry_Stickut
+	cry Cry_Ugling
+	cry Cry_Swellegant
+	cry Cry_Angling
+	cry Cry_Angelish
+	cry Cry_Angelight
+	cry Cry_Aquad
+	cry Cry_Smaqua
+	cry Cry_Beopup
+	cry Cry_Werehide
+	cry Cry_Vambat
+	cry Cry_Dracubat
+	cry Cry_Countula
+	cry Cry_Pupool
+	cry Cry_Pooldog
+	cry Cry_Porfin
+	cry Cry_Doflap
+	cry Cry_Paradiso
+	cry Cry_Parasea
+	cry Cry_Aqlarva
+	cry Cry_Mosliquo
+	cry Cry_Nawale
+	cry Cry_Whaley
+	cry Cry_Squidart
+	cry Cry_Lisquid
+	cry Cry_Hamawl
+	cry Silvicious
 	cry Cry_Unown //Cry_Wyrdeer
 	cry Cry_Unown //Cry_Kleavor
 	cry Cry_Unown //Cry_Ursaluna
@@ -3656,6 +3689,39 @@ gCryTable_Reverse::
 	cry_reverse Cry_Sereneon
 	cry_reverse Cry_Misteon
 	cry_reverse Cry_Pureon
+	cry_reverse Cry_Salatad
+	cry_reverse Cry_Salanip
+	cry_reverse Cry_Salaslam
+	cry_reverse Cry_Halmstar
+	cry_reverse Cry_Snuffuzz
+	cry_reverse Cry_Stickit
+	cry_reverse Cry_Stickut
+	cry_reverse Cry_Ugling
+	cry_reverse Cry_Swellegant
+	cry_reverse Cry_Angling
+	cry_reverse Cry_Angelish
+	cry_reverse Cry_Angelight
+	cry_reverse Cry_Aquad
+	cry_reverse Cry_Smaqua
+	cry_reverse Cry_Beopup
+	cry_reverse Cry_Werehide
+	cry_reverse Cry_Vambat
+	cry_reverse Cry_Dracubat
+	cry_reverse Cry_Countula
+	cry_reverse Cry_Pupool
+	cry_reverse Cry_Pooldog
+	cry_reverse Cry_Porfin
+	cry_reverse Cry_Doflap
+	cry_reverse Cry_Paradiso
+	cry_reverse Cry_Parasea
+	cry_reverse Cry_Aqlarva
+	cry_reverse Cry_Mosliquo
+	cry_reverse Cry_Nawale
+	cry_reverse Cry_Whaley
+	cry_reverse Cry_Squidart
+	cry_reverse Cry_Lisquid
+	cry_reverse Cry_Hamawl
+	cry_reverse Silvicious
 
 	cry_reverse Cry_Unown //Cry_Wyrdeer
 	cry_reverse Cry_Unown //Cry_Kleavor
