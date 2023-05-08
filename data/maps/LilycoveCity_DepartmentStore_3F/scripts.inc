@@ -13,12 +13,14 @@ LilycoveCity_DepartmentStore_3F_EventScript_ClerkLeft::
 
 	.align 2
 LilycoveCity_DepartmentStore_3F_Pokemart_Vitamins:
-	.2byte ITEM_PROTEIN
-	.2byte ITEM_CALCIUM
-	.2byte ITEM_IRON
-	.2byte ITEM_ZINC
-	.2byte ITEM_CARBOS
-	.2byte ITEM_HP_UP
+	.2byte ITEM_TERRAIN_EXTENDER
+	.2byte ITEM_PROTECTIVE_PADS
+	.2byte ITEM_THROAT_SPRAY
+	.2byte ITEM_EJECT_PACK
+	.2byte ITEM_HEAVY_DUTY_BOOTS
+	.2byte ITEM_BLUNDER_POLICY
+	.2byte ITEM_ROOM_SERVICE
+	.2byte ITEM_UTILITY_UMBRELLA
 	.2byte ITEM_NONE
 	release
 	end
@@ -35,13 +37,14 @@ LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight::
 
 	.align 2
 LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters:
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_SP_ATK
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFENSE
-	.2byte ITEM_DIRE_HIT
-	.2byte ITEM_GUARD_SPEC
-	.2byte ITEM_X_ACCURACY
+	.2byte ITEM_PEWTER_CRUNCHIES
+	.2byte ITEM_RAGE_CANDY_BAR
+	.2byte ITEM_LAVA_COOKIE
+	.2byte ITEM_OLD_GATEAU
+	.2byte ITEM_CASTELIACONE
+	.2byte ITEM_LUMIOSE_GALETTE
+	.2byte ITEM_SHALOUR_SABLE
+	.2byte ITEM_BIG_MALASADA
 	.2byte ITEM_NONE
 	release
 	end

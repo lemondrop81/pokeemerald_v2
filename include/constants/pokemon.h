@@ -94,6 +94,9 @@
 // Shiny odds
 #define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
 
+// Flags for Get(Box)MonData / Set(Box)MonData
+#define MON_DATA_HIDDEN_NATURE     1
+
 // Ribbon IDs used by TV and Pokénav
 #define CHAMPION_RIBBON       0
 #define COOL_RIBBON_NORMAL    1

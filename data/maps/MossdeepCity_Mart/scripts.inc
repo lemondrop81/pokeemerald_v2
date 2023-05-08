@@ -13,15 +13,15 @@ MossdeepCity_Mart_EventScript_Clerk::
 
 	.align 2
 MossdeepCity_Mart_Pokemart:
-	.2byte ITEM_ULTRA_BALL
-	.2byte ITEM_NET_BALL
-	.2byte ITEM_DIVE_BALL
-	.2byte ITEM_HYPER_POTION
-	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_HEALTH_FEATHER
+	.2byte ITEM_MUSCLE_FEATHER
+	.2byte ITEM_RESIST_FEATHER
+	.2byte ITEM_GENIUS_FEATHER
+	.2byte ITEM_CLEVER_FEATHER
+	.2byte ITEM_SWIFT_FEATHER
 	.2byte ITEM_REVIVE
-	.2byte ITEM_MAX_REPEL
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFENSE
+	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_MAX_POTION
 	.2byte ITEM_NONE
 	release
 	end
