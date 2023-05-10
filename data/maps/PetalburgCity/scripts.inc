@@ -240,111 +240,6 @@ PetalburgCity_EventScript_WallyHouseSign::
 	msgbox PetalburgCity_Text_WallyHouseSign, MSGBOX_SIGN
 	end
 
-PetalburgCity_EventScript_ShowGymToPlayer0::
-	lockall
-	setvar VAR_0x8008, 0
-	goto PetalburgCity_EventScript_ShowGymToPlayer
-	end
-
-PetalburgCity_EventScript_ShowGymToPlayer1::
-	lockall
-	setvar VAR_0x8008, 1
-	goto PetalburgCity_EventScript_ShowGymToPlayer
-	end
-
-PetalburgCity_EventScript_ShowGymToPlayer2::
-	lockall
-	setvar VAR_0x8008, 2
-	goto PetalburgCity_EventScript_ShowGymToPlayer
-	end
-
-PetalburgCity_EventScript_ShowGymToPlayer3::
-	lockall
-	setvar VAR_0x8008, 3
-	goto PetalburgCity_EventScript_ShowGymToPlayer
-	end
-
-PetalburgCity_EventScript_ShowGymToPlayer::
-	applymovement LOCALID_GYM_BOY, Common_Movement_FacePlayer
-	waitmovement 0
-	playbgm MUS_FOLLOW_ME, FALSE
-	playse SE_PIN
-	applymovement LOCALID_GYM_BOY, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_GYM_BOY, Common_Movement_Delay48
-	waitmovement 0
-	call_if_eq VAR_0x8008, 0, PetalburgCity_EventScript_BoyApproachPlayer0
-	call_if_eq VAR_0x8008, 1, PetalburgCity_EventScript_BoyApproachPlayer1
-	call_if_eq VAR_0x8008, 2, PetalburgCity_EventScript_BoyApproachPlayer2
-	call_if_eq VAR_0x8008, 3, PetalburgCity_EventScript_BoyApproachPlayer3
-	msgbox PetalburgCity_Text_AreYouRookieTrainer, MSGBOX_DEFAULT
-	closemessage
-	call_if_eq VAR_0x8008, 0, PetalburgCity_EventScript_LeadPlayerToGym0
-	call_if_eq VAR_0x8008, 1, PetalburgCity_EventScript_LeadPlayerToGym1
-	call_if_eq VAR_0x8008, 2, PetalburgCity_EventScript_LeadPlayerToGym2
-	call_if_eq VAR_0x8008, 3, PetalburgCity_EventScript_LeadPlayerToGym3
-	msgbox PetalburgCity_Text_ThisIsPetalburgGym, MSGBOX_DEFAULT
-	applymovement LOCALID_GYM_BOY, Common_Movement_WalkInPlaceFasterRight
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	msgbox PetalburgCity_Text_ThisIsGymSign, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_GYM_BOY, PetalburgCity_Movement_BoyWalkAway
-	waitmovement 0
-	fadedefaultbgm
-	releaseall
-	end
-
-PetalburgCity_EventScript_BoyApproachPlayer0::
-	applymovement LOCALID_GYM_BOY, PetalburgCity_Movement_BoyApproachPlayer0
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
-	return
-
-PetalburgCity_EventScript_BoyApproachPlayer1::
-	applymovement LOCALID_GYM_BOY, PetalburgCity_Movement_BoyApproachPlayer1
-	waitmovement 0
-	return
-
-PetalburgCity_EventScript_BoyApproachPlayer2::
-	applymovement LOCALID_GYM_BOY, PetalburgCity_Movement_BoyApproachPlayer2
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	return
-
-PetalburgCity_EventScript_BoyApproachPlayer3::
-	applymovement LOCALID_GYM_BOY, PetalburgCity_Movement_BoyApproachPlayer3
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	return
-
-PetalburgCity_EventScript_LeadPlayerToGym0::
-	applymovement LOCALID_GYM_BOY, PetalburgCity_Movement_BoyWalkToGym0
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_PlayerWalkToGym0
-	waitmovement 0
-	return
-
-PetalburgCity_EventScript_LeadPlayerToGym1::
-	applymovement LOCALID_GYM_BOY, PetalburgCity_Movement_BoyWalkToGym1
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_PlayerWalkToGym1
-	waitmovement 0
-	return
-
-PetalburgCity_EventScript_LeadPlayerToGym2::
-	applymovement LOCALID_GYM_BOY, PetalburgCity_Movement_BoyWalkToGym2
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_PlayerWalkToGym2
-	waitmovement 0
-	return
-
-PetalburgCity_EventScript_LeadPlayerToGym3::
-	applymovement LOCALID_GYM_BOY, PetalburgCity_Movement_BoyWalkToGym3
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_PlayerWalkToGym3
-	waitmovement 0
-	return
-
 @ Unused
 PetalburgCity_Movement_Delay48::
 	delay_16
@@ -700,29 +595,10 @@ PetalburgCity_Movement_PlayerWatchScottExit3:
 	walk_in_place_faster_left
 	step_end
 
-PetalburgCity_EventScript_GymBoy::
-	msgbox PetalburgCity_Text_AreYouRookieTrainer, MSGBOX_NPC
-	end
-
 PetalburgCity_Text_WhereIsWally:
 	.string "Where has our WALLY gone?\p"
 	.string "We have to leave for VERDANTURF TOWN\n"
 	.string "very soon…$"
-
-PetalburgCity_Text_AreYouRookieTrainer:
-	.string "Hiya! Are you maybe…\n"
-	.string "A rookie TRAINER?\p"
-	.string "Do you know what POKéMON TRAINERS\n"
-	.string "do when they reach a new town?\p"
-	.string "They first check what kind of GYM\n"
-	.string "is in the town.$"
-
-PetalburgCity_Text_ThisIsPetalburgGym:
-	.string "See? This is PETALBURG CITY's GYM.$"
-
-PetalburgCity_Text_ThisIsGymSign:
-	.string "This is the GYM's sign. Look for it\n"
-	.string "whenever you're looking for a GYM.$"
 
 PetalburgCity_Text_WaterReflection:
 	.string "My face is reflected in the water.\p"
