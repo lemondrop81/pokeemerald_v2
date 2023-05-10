@@ -4645,6 +4645,8 @@ u32 GetBattlerTotalSpeedStat(u8 battlerId)
             speed *= 2;
         else if (ability == ABILITY_SLUSH_RUSH  && gBattleWeather & B_WEATHER_HAIL)
             speed *= 2;
+        else if (ability == ABILITY_ICE_CLEATS  && gBattleWeather & B_WEATHER_HAIL)
+            speed *= 2;
     }
 
     // other abilities
@@ -5647,6 +5649,11 @@ void SetTypeBeforeUsingMove(u16 move, u8 battlerAtk)
                  || (attackerAbility == ABILITY_REFRIGERATE && (ateType = TYPE_ICE))
                  || (attackerAbility == ABILITY_AERILATE && (ateType = TYPE_FLYING))
                  || ((attackerAbility == ABILITY_GALVANIZE) && (ateType = TYPE_ELECTRIC))
+                 || ((attackerAbility == ABILITY_INTOXICATE) && (ateType = TYPE_POISON))
+                 || ((attackerAbility == ABILITY_TERRORIZE) && (ateType = TYPE_GHOST))
+                 || ((attackerAbility == ABILITY_CALCIFATE) && (ateType = TYPE_ROCK))
+                 || ((attackerAbility == ABILITY_COMBATIZE) && (ateType = TYPE_FIGHTING))
+                 || ((attackerAbility == ABILITY_CALDERIZE) && (ateType = TYPE_FIRE))
                 )
              )
     {

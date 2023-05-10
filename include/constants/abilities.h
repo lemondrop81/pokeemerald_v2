@@ -327,6 +327,20 @@
 
 #define ABILITIES_COUNT_GEN9 299
 
-#define ABILITIES_COUNT ABILITIES_COUNT_GEN9
+// Custom abilities
+#define ABILITY_INTOXICATE 300 // normal type moves become poison
+#define ABILITY_TERRORIZE 301 // normal type moves become ghost
+#define ABILITY_CALCIFATE 302 // normal type moves become rock
+#define ABILITY_COMBATIZE 303 // normal type moves become fighting
+#define ABILITY_CALDERIZE 304 // normal type moves become fire
+#define ABILITY_PSYCHO_CALL 305 
+#define ABILITY_SPIRIT_CALL 306
+#define ABILITY_SHADOW_CALL 307
+#define ABILITY_WIND_FORCE 308
+#define ABILITY_ICE_CLEATS 309
+
+#define ABILITIES_COUNT_CUSTOM 310
+
+#define ABILITIES_COUNT ABILITIES_COUNT_CUSTOM
 
 #endif  // GUARD_CONSTANTS_ABILITIES_H
