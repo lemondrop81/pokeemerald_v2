@@ -30,7 +30,6 @@ SlateportCity_OnTransition:
 	setvar VAR_SLATEPORT_MUSEUM_1F_STATE, 0
 	call SlateportCity_EventScript_EnterSlateport
 	call_if_eq VAR_SLATEPORT_CITY_STATE, 1, SlateportCity_EventScript_MovePeopleForSternInterview
-	call_if_eq VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 1, SlateportCity_EventScript_SetReadyForScottScene
 	end
 
 SlateportCity_EventScript_EnterSlateport::
@@ -55,86 +54,6 @@ SlateportCity_EventScript_MovePeopleForSternInterview::
 	setobjectmovementtype LOCALID_FAT_MAN, MOVEMENT_TYPE_FACE_UP
 	setobjectmovementtype LOCALID_MAN_1, MOVEMENT_TYPE_FACE_LEFT
 	return
-
-SlateportCity_EventScript_SetReadyForScottScene::
-	setflag FLAG_HIDE_MAP_NAME_POPUP
-	getplayerxy VAR_0x8004, VAR_0x8005
-	goto_if_eq VAR_0x8004, 30, SlateportCity_EventScript_MoveScottLeft
-	setobjectxyperm LOCALID_SCOTT, 23, 27
-	setobjectmovementtype LOCALID_SCOTT, MOVEMENT_TYPE_FACE_RIGHT
-	return
-
-SlateportCity_EventScript_MoveScottLeft::
-	setobjectxyperm LOCALID_SCOTT, 22, 27
-	setobjectmovementtype LOCALID_SCOTT, MOVEMENT_TYPE_FACE_RIGHT
-	return
-
-SlateportCity_OnFrame:
-	map_script_2 VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 1, SlateportCity_EventScript_ScottScene
-	.2byte 0
-
-SlateportCity_EventScript_ScottScene::
-	lockall
-	addobject LOCALID_SCOTT
-	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Movement_PlayerFaceScott
-	applymovement LOCALID_SCOTT, SlateportCity_Movement_ScottApproachPlayer
-	waitmovement 0
-	msgbox SlateportCity_Text_YouDroveTeamAquaAway, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_SCOTT, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
-	delay 60
-	msgbox SlateportCity_Text_MaybeThisTrainer, MSGBOX_DEFAULT
-	applymovement LOCALID_SCOTT, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	msgbox SlateportCity_Text_LetsRegisterEachOther, MSGBOX_DEFAULT
-	closemessage
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox SlateportCity_Text_RegisteredScott, MSGBOX_DEFAULT
-	waitfanfare
-	closemessage
-	delay 30
-	setflag FLAG_ENABLE_SCOTT_MATCH_CALL
-	msgbox SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_SCOTT, SlateportCity_Movement_ScottExit
-	waitmovement 0
-	removeobject LOCALID_SCOTT
-	setobjectxyperm LOCALID_SCOTT, 10, 12
-	setobjectmovementtype LOCALID_SCOTT, MOVEMENT_TYPE_FACE_DOWN
-	clearflag FLAG_HIDE_MAP_NAME_POPUP
-	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 2
-	addvar VAR_SCOTT_STATE, 1
-	releaseall
-	end
-
-SlateportCity_Movement_PlayerFaceScott:
-	delay_16
-	delay_8
-	walk_in_place_faster_left
-	step_end
-
-SlateportCity_Movement_ScottApproachPlayer:
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	step_end
-
-SlateportCity_Movement_ScottExit:
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	step_end
 
 SlateportCity_EventScript_EnergyGuru::
 	lock
@@ -893,54 +812,10 @@ SlateportCity_EventScript_NotEnoughBerryPowder::
 	goto SlateportCity_EventScript_ChooseBerryPowderItem
 	end
 
-SlateportCity_EventScript_ScottBattleTentScene::
-	lockall
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
-	waitmovement 0
-	opendoor 10, 12
-	waitdooranim
-	addobject LOCALID_SCOTT
-	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Movement_PushPlayerDown
-	applymovement LOCALID_SCOTT, SlateportCity_Movement_ScottExitBattleTent
-	waitmovement 0
-	closedoor 10, 12
-	waitdooranim
-	msgbox SlateportCity_Text_TakingBattleTentChallenge, MSGBOX_DEFAULT
-	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Movement_PlayerWatchScottExit
-	applymovement LOCALID_SCOTT, SlateportCity_Movement_ScottExitAfterBattleTent
-	waitmovement 0
-	removeobject LOCALID_SCOTT
-	addvar VAR_SCOTT_STATE, 1
-	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 3
-	releaseall
-	end
-
 SlateportCity_Movement_PushPlayerDown:
 	lock_facing_direction
 	walk_down
 	unlock_facing_direction
-	step_end
-
-SlateportCity_Movement_PlayerWatchScottExit:
-	delay_16
-	walk_in_place_faster_right
-	step_end
-
-SlateportCity_Movement_ScottExitBattleTent:
-	delay_8
-	walk_down
-	step_end
-
-SlateportCity_Movement_ScottExitAfterBattleTent:
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
 	step_end
 
 SlateportCity_EventScript_BerryCrushRankingsSign::
@@ -1340,46 +1215,3 @@ SlateportCity_Text_ComeBackToTradeBerryPowder:
 	.string "BERRY POWDER for some medicine.\p"
 	.string "I'm always running a bazaar here.\p"
 	.string "Did you know?$"
-
-SlateportCity_Text_YouDroveTeamAquaAway:
-	.string "SCOTT: Huh?\n"
-	.string "I'm sure I met you somewhere before.\p"
-	.string "Have I introduced myself to you?\n"
-	.string "If not, my name's SCOTT.\p"
-	.string "I just saw TEAM AQUA run away from\n"
-	.string "here like they were stung.\p"
-	.string "Let me guess--you drove them away?$"
-
-SlateportCity_Text_MaybeThisTrainer:
-	.string "SCOTT: Hmm…\n"
-	.string "Maybe, just maybe, this TRAINER…$"
-
-SlateportCity_Text_LetsRegisterEachOther:
-	.string "SCOTT: All right! I think you're going\n"
-	.string "to become a good friend.\p"
-	.string "So, let's register each other in our\n"
-	.string "POKéNAVS.\p"
-	.string "… … … … … …$"
-
-SlateportCity_Text_RegisteredScott:
-	.string "Registered this SCOTT person\n"
-	.string "in the POKéNAV.$"
-
-SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
-	.string "SCOTT: What I'd like to do is tag along\n"
-	.string "with you, but I do want to keep an eye\l"
-	.string "on the talents of other people, too.\p"
-	.string "So, I'll be off to roam other towns\n"
-	.string "a bit more.\p"
-	.string "Be seeing you, {PLAYER}{KUN}!$"
-
-SlateportCity_Text_TakingBattleTentChallenge:
-	.string "SCOTT: Oh, hey!\n"
-	.string "If it isn't {PLAYER}{KUN}!\p"
-	.string "{PLAYER}{KUN}, let me guess--you're going\n"
-	.string "to take the BATTLE TENT challenge?\p"
-	.string "Yeah! That's a good idea!\n"
-	.string "That's a really great idea!\p"
-	.string "After all, a tough TRAINER is\n"
-	.string "the perfect fit for the BATTLE TENT!\p"
-	.string "Give it your best effort!$"
